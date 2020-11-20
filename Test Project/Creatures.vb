@@ -5,7 +5,7 @@ Public MustInherit Class Creatures
     Protected health As Single = 200
     Protected attackDamage As Single = 5.7F
     Protected armor As Single = 5
-    Protected name As String = "Gobi"
+    Protected name As String = "JujeFokoli"
     Public Property AttackSpeed As Single
         Get
             Return AttackSpeed

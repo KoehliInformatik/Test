@@ -18,7 +18,7 @@ Public Class CreaturesManager
         Console.Clear()
         Console.ForegroundColor = ConsoleColor.White
 
-        Console.WriteLine(" Hi there! " & vbLf & " Welcome to my Monster Game :-)" & vbLf & " Lets create some hilarious monster fights... :) ")
+        Console.WriteLine(" Hi there! " & vbLf & " Welcome to my Monster Game :-)" & vbLf & " Lets create some hilarious monster fights...! :) ")
 
         Dim IsCrafting As Boolean = True
 
@@ -89,7 +89,7 @@ Public Class CreaturesManager
 
             End While
 
-            Dim health As Single = ReadNumberInput(" Input health", 250, 1000)
+            Dim health As Single = ReadNumberInput(" Input health", 250, 1250)
             Dim attackDamage As Single = ReadNumberInput(" Input attackDamage", 10, 75)
             Dim armor As Single = ReadNumberInput(" Input armor", 25, 200)
             Dim attackSpeed As Single = ReadNumberInput(" Input attackSpeed", 0.1F, 2.5F)
@@ -209,6 +209,10 @@ Public Class CreaturesManager
     End Sub
 
     Public Shared Function ReadNumberInput(ByVal attention As String, ByVal lowestLimit As Single, ByVal highestLimit As Single)
+
+        If lowestLimit >= highestLimit AndAlso highestLimit <= lowestLimit Then
+            Console.WriteLine("Whöt...?!?!?!")
+        End If
 
         Console.WriteLine(attention & " (Allowed numbers are between min. " & lowestLimit & " to max. " & highestLimit & ")")
 
