@@ -3,7 +3,7 @@
 Public MustInherit Class Creatures
 
     Protected health As Single = 200
-    Protected attackDamage As Single = 3.7F
+    Protected attackDamage As Single = 5.7F
     Protected armor As Single = 5
     Protected name As String = "Gobi"
     Public Property AttackSpeed As Single
