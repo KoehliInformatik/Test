@@ -8,7 +8,7 @@ Public Class CreaturesManager
     Public Shared Instance As CreaturesManager = New CreaturesManager()
     Public Shared creatures As List(Of Creatures) = New List(Of Creatures)()
 
-    Public Sub New()
+    Private Sub New()
         If Instance Is Nothing Then Instance = Me
     End Sub
 
