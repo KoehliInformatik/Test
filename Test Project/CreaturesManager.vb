@@ -4,7 +4,7 @@ Imports System.Globalization
 Imports System.Linq
 
 Public Class CreaturesManager
-
+    ' Just A COMMENT
     Public Shared Instance As CreaturesManager = New CreaturesManager()
     Public Shared creatures As List(Of Creatures) = New List(Of Creatures)()
 
@@ -22,7 +22,7 @@ Public Class CreaturesManager
 
         Dim IsCrafting As Boolean = True
 
-        While 2
+        While IsCrafting
 
             Console.WriteLine(vbLf & " Press the showing inputs to create different type of monsters: " & vbLf &
                               " 1 => Goblin, 2 => Orc, 3 => Wyvern, 4 => Dragon, 5 => Bigfoot, 6 => Vampyre and 7 =>  Werewolve" & vbLf &
