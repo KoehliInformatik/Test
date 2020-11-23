@@ -4,6 +4,7 @@
     ''' </summary>
     Sub Main()
         CreaturesManager.Instance.CreateMonsters()
+        Console.WriteLine("hello2")
     End Sub
 
 End Module
