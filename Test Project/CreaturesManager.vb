@@ -111,30 +111,30 @@ Public Class CreaturesManager
                      ConsoleKey.NumPad2
                     Dim orc As Creatures = New Orc(health, attackDamage, armor, attackSpeed, name)
                     creatures.Add(orc)
-                    '    Console.WriteLine(" You have created a Orc monster named " & name & ": it has " & health & " hp, " & attackDamage & " attack Damage and " & armor & " armor with " & attackSpeed & " attack Speed! ")
+                    Console.WriteLine(" You have created a Orc monster named " & name & ": it has " & health & " hp, " & attackDamage & " attack Damage and " & armor & " armor with " & attackSpeed & " attack Speed! ")
 
-                    'Case ConsoleKey.D3,
-                    '     ConsoleKey.NumPad3
-                    '    Dim wyvern As Creatures = New Wyvern(health, attackDamage, armor, attackSpeed, name)
-                    '    creatures.Add(wyvern)
-                    '    Console.WriteLine(" You have created a Wyvern monster named " & name & ": it has " & health & " hp, " & attackDamage & " attack Damage and " & armor & " armor with " & attackSpeed & " attack Speed! ")
+                Case ConsoleKey.D3,
+                     ConsoleKey.NumPad3
+                    Dim wyvern As Creatures = New Wyvern(health, attackDamage, armor, attackSpeed, name)
+                    creatures.Add(wyvern)
+                    Console.WriteLine(" You have created a Wyvern monster named " & name & ": it has " & health & " hp, " & attackDamage & " attack Damage and " & armor & " armor with " & attackSpeed & " attack Speed! ")
 
-                    'Case ConsoleKey.D4,
-                    '     ConsoleKey.NumPad4
-                    '    Dim dragon As Creatures = New Dragon(health, attackDamage, armor, attackSpeed, name)
-                    '    creatures.Add(dragon)
-                    '    Console.WriteLine(" You have created a Wyvern monster named " & name & ": it has " & health & " hp, " & attackDamage & " attack Damage and " & armor & " armor with " & attackSpeed & " attack Speed! ")
+                Case ConsoleKey.D4,
+                     ConsoleKey.NumPad4
+                    Dim dragon As Creatures = New Dragon(health, attackDamage, armor, attackSpeed, name)
+                    creatures.Add(dragon)
+                    Console.WriteLine(" You have created a Wyvern monster named " & name & ": it has " & health & " hp, " & attackDamage & " attack Damage and " & armor & " armor with " & attackSpeed & " attack Speed! ")
 
-                    'Case ConsoleKey.D5,
-                    '     ConsoleKey.NumPad5
-                    '    Dim bigfoot As Creatures = New Bigfoot(health, attackDamage, armor, attackSpeed, name)
-                    '    creatures.Add(bigfoot)
-                    '    Console.WriteLine(" You have created a Wyvern monster named " & name & ": it has " & health & " hp, " & attackDamage & " attack Damage and " & armor & " armor with " & attackSpeed & " attack Speed! ")
+                Case ConsoleKey.D5,
+                     ConsoleKey.NumPad5
+                    Dim bigfoot As Creatures = New Bigfoot(health, attackDamage, armor, attackSpeed, name)
+                    creatures.Add(bigfoot)
+                    Console.WriteLine(" You have created a Wyvern monster named " & name & ": it has " & health & " hp, " & attackDamage & " attack Damage and " & armor & " armor with " & attackSpeed & " attack Speed! ")
 
-                    'Case ConsoleKey.D6,
-                    ' ConsoleKey.NumPad6
-                    '    Dim vampyre As Creatures = New Vampyre(health, attackDamage, armor, attackSpeed, name)
-                    '    creatures.Add(vampyre)
+                Case ConsoleKey.D6,
+                 ConsoleKey.NumPad6
+                    Dim vampyre As Creatures = New Vampyre(health, attackDamage, armor, attackSpeed, name)
+                    creatures.Add(vampyre)
                     Console.WriteLine(" You have created a Wyvern monster named " & name & ": it has " & health & " hp, " & attackDamage & " attack Damage and " & armor & " armor with " & attackSpeed & " attack Speed! ")
 
                 Case ConsoleKey.D7,
